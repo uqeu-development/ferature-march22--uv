@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../assets/fonts/uniqlo-webfont.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/wireless-bras-shorts.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+
+  <!-- JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script defer src="https://cdn.jsdelivr.net/gh/uqeu-development/theFunction@latest/theFunction.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.3/dist/lazyload.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <!-- GTM -->
+  <script src="https://cdn.jsdelivr.net/gh/uqeu-development/gtm@v1.0.1/gtm.js"></script>
+
+  <title>Starting Template</title>
+</head>
+
+<body>
+  <div id="container">
+    <!-- RELATED ARTICLES CSS -->
+    <style>
+      #container .ra-section {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 80%;
+        margin: 60px auto;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+      }
+
+      @media only screen and (max-width: 800px) {
+        #container .ra-section {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          width: 100%;
+        }
+      }
+
+      #container .ra-section .ra-container {
+        width: 30%;
+        margin: 1px;
+      }
+
+      @media only screen and (max-width: 800px) {
+        #container .ra-section .ra-container {
+          width: 100%;
+        }
+      }
+
+      @media only screen and (max-width: 800px) {
+        #container .ra-section .ra-container .ra-block {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+        }
+      }
+
+      @media only screen and (max-width: 800px) {
+        #container .ra-section .ra-container .ra-block .ra-block-img {
+          min-width: 40%;
+          width: 40%;
+          margin-right: 10px;
+        }
+      }
+
+      #container .ra-section .ra-container .ra-block .ra-block-img img {
+        width: 100%;
+      }
+
+      @media only screen and (max-width: 800px) {
+        #container .ra-section .ra-container .ra-block .ra-block-info {
+          margin-top: 10px;
+        }
+      }
+
+      #container .ra-section .ra-container .ra-block .ra-block-info p {
+        margin-top: 5px;
+        font-size: 12px;
+      }
+    </style>
+    <a id="button"></a>
+    <h2 class="padding-left-m">Sous-vêtements innovants</h2>
+    <section id="w-hero">
+      <div class="hero-img">
+        <img class="desktop-only"
+          data-src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/hero-desktop.jpg"
+          loading="lazy" width="1200" height="500" />
+        <img class="mobile-only"
+          data-src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/hero-mobile.jpg"
+          loading="lazy" width="1200" height="500" />
+      </div>
+      <div class="hero-copy">
+        <div class="hero-title">Confort et beauté toute la journée</div>
+        <div class="hero-subtitle">Sous-vêtements innovants</div>
+        <p>
+          Les soutiens-gorge et culottes UNIQLO, ce sont des pièces qui vous
+          offrent maintien et confort tout au long de la journée pour vous
+          permettre de vous sentir belle et à l’aise.
+        </p>
+      </div>
+      <h2 class="text-align-center">Se sentir belle, tout simplement.</h2>
+      <div class="hero-subtitle text-align-center mobile-only">
+        Sous-vêtements innovants
+      </div>
+      <p class="text-align-center mobile-only">
+        Les soutiens-gorge et culottes UNIQLO, ce sont des pièces qui vous
+        offrent maintien et confort tout au long de la journée pour vous
+        permettre de vous sentir belle et à l’aise.
+      </p>
+    </section>
+
+    <section id="w-nav">
+      <div class="w-nav">
+        <div class="w-nav-img">
+          <img src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/nav-1.jpg" />
+        </div>
+        <div class="w-nav-title">
+          <a href="#wireless-bras">
+            <h4>Soutiens-gorge sans armatures</h4>
+          </a>
+        </div>
+      </div>
+      <div class="w-nav">
+        <div class="w-nav-img">
+          <img src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/nav-2.jpg" />
+        </div>
+        <div class="w-nav-title">
+          <a href="#seamless-shorts">
+            <h4>Shortys sans coutures</h4>
+          </a>
+        </div>
+      </div>
+      <div class="w-nav">
+        <div class="w-nav-img">
+          <img src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/nav-3.jpg" />
+        </div>
+        <div class="w-nav-title">
+          <a href="#body-shaper">
+            <h4>Modèles Sculptants</h4>
+          </a>
+        </div>
+      </div>
+      <div class="w-nav">
+        <div class="w-nav-img">
+          <img src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/nav-4.jpg" />
+        </div>
+        <div class="w-nav-title">
+          <a href="#v-neck">
+            <h4>Caracos Sans Coutures à Bonnets Intégrés Décolleté en V</h4>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="wireless-bras">
+      <!-- SHAPE LIFT WIRELESS BRA -->
+      <div class="w-lineup">
+        <h2 class="padding-left-m">
+          Soutien-Gorge Shape Lift<span class="new">Nouveau !</span>
+        </h2>
+        <div class="w-lineup-assets">
+          <div class="w-lineup-asset">
+            <img
+              data-src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-main-1.jpg"
+              height="400" width="550" loading="lazy" />
+          </div>
+          <div class="w-lineup-copy">
+            <h4 class="text-align-center">
+              Découvrez le tout nouveau soutien-gorge Shape Lift
+            </h4>
+            <div class="video-wrapper">
+              <video controls
+                poster="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-video-poster.jpg">
+                <source
+                  src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/shape-lift-fr.mp4"
+                  type="video/mp4" />
+              </video>
+            </div>
+            <div class="lineup-feature">
+              <div class="feature-img">
+                <img
+                  data-src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-1-feature.jpg"
+                  height="200" width="200%" loading="lazy" />
+              </div>
+              <div class="feature-copy">
+                <h4>Un effet push-up sans armatures</h4>
+                <p>Confortable ✓ Doux ✓ Coupe parfaite ✓</p>
+                <p>
+                  Le plus beau décolleté UNIQLO : le nouveau soutien-gorge
+                  sans armatures Shape Lift.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="w-lineup-desc">
+          Chouchoutez votre décolleté avec ce nouveau soutien-gorge et son
+          effet pigeonnant. Grâce à sa structure et aux éléments en résine à
+          l’intérieur des bonnets, il procure un maintien optimal qui s’ajuste
+          parfaitement à toutes les tailles. Sans armatures, il offre un galbe
+          naturel tout en restant confortable.
+        </p>
+
+        <div class="w-lineup-usp">
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-1-usp-1.jpg"
+              loading="lazy" />
+            <div class="usp-new">Nouveau !</div>
+            <div class="usp-copy bottom-center">
+              <p>Les bonnets intégrés en résine rehaussent la poitrine.</p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-1-usp-2.jpg" />
+
+            <div class="usp-copy bottom-center white">
+              <p>La structure « lift » offre maintien et mise en valeur.</p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-1-usp-3.jpg" />
+
+            <div class="usp-copy" style="top: -20px">
+              <p>Un magnifique décolleté</p>
+            </div>
+            <div class="usp-copy" style="top: 20px">
+              <p style="font-size: 12px">
+                Exemple : vous faites un bonnet A, B ou C en taille 80/85
+              </p>
+            </div>
+            <div class="usp-copy" style="top: 30%">
+              <p style="
+                    font-size: 9px;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Taille habituelle
+              </p>
+              <p style="
+                    font-size: 22px;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                80B
+              </p>
+              <p style="
+                    font-size: 9px;
+                    font-weight: light;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Tour de poitrine 78 cm
+              </p>
+              <p style="
+                    font-size: 9px;
+                    font-weight: light;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Tour de buste 65 cm
+              </p>
+            </div>
+            <div class="usp-copy" style="top: 65%">
+              <p style="
+                    font-size: 9px;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Taille habituelle
+              </p>
+              <p style="
+                    font-size: 22px;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                85C
+              </p>
+              <p style="
+                    font-size: 9px;
+                    font-weight: light;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Tour de poitrine 82 cm
+              </p>
+              <p style="
+                    font-size: 9px;
+                    font-weight: light;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Tour de buste 65 cm
+              </p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-1-usp-4.jpg" />
+
+            <div class="usp-copy top-left white">
+              <p>Des coussinets épais et mœlleux</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-lineup-cta">
+          <a href="https://www.uniqlo.com/fr/fr/femme/sous-vetements-et-vetements-dinterieur/sous-vetements"
+            target="blank">
+            <h3>Soutien-Gorge Shape Lift</h3>
+          </a>
+        </div>
+      </div>
+
+      <!-- 3D HOLD WIRELESS BRA -->
+      <div class="w-lineup">
+        <h2 class="padding-left-m">Soutien-Gorge Maintien 3D</h2>
+        <div class="w-lineup-assets">
+          <div class="w-lineup-asset">
+            <img
+              data-src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-main-2.jpg"
+              height="400" width="550" loading="lazy" />
+          </div>
+          <div class="w-lineup-copy">
+            <h4 class="text-align-center">
+              Design sans armatures et bonnets tridimensionnels
+            </h4>
+            <p>
+              Pour s’adapter à tous les types de poitrine, les bonnets sont
+              constitués de fentes radiales qui apportent souplesse, confort
+              et maintien sans vous comprimer.
+            </p>
+            <div class="video-wrapper">
+              <video controls
+                poster="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-2-video-poster.jpg">
+                <source
+                  src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/3d-bra-fr.mp4"
+                  type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+        <h3 class="text-align-center">
+          Technologie 3D, souplesse et maintien
+        </h3>
+        <p class="w-lineup-desc text-align-center">
+          Le design de ces bonnets flexibles permet de s’adapter à de
+          nombreuses tailles.
+          <br /><br />
+          <small>*Le nombre et la position des fentes radiales ainsi que la
+            densité du tissu varient selon les modèles.</small>
+        </p>
+
+        <div class="w-lineup-usp">
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-2-usp-1.jpg"
+              loading="lazy" />
+
+            <div class="usp-copy bottom-center">
+              <p>Les bonnets élastiques UNIQLO</p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-2-usp-2.jpg" />
+
+            <div class="usp-copy bottom-center">
+              <p>La structure souple s’adapte à toutes les formes.</p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-2-usp-3.jpg" />
+
+            <div class="usp-copy" style="top: -10px">
+              <p>Une seule taille</p>
+            </div>
+            <div class="usp-copy" style="top: 30px">
+              <p style="font-size: 12px">
+                Exemple : vous faites un bonnet A, B ou C en taille 80/85
+              </p>
+            </div>
+            <div class="usp-copy" style="top: 35%">
+              <p style="
+                    font-size: 9px;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Taille habituelle
+              </p>
+              <p style="
+                    font-size: 22px;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                80B
+              </p>
+              <p style="
+                    font-size: 9px;
+                    font-weight: light;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Tour de poitrine 78 cm
+              </p>
+              <p style="
+                    font-size: 9px;
+                    font-weight: light;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Tour de buste 65 cm
+              </p>
+            </div>
+            <div class="usp-copy" style="top: 70%">
+              <p style="
+                    font-size: 9px;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Taille habituelle
+              </p>
+              <p style="
+                    font-size: 22px;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                85C
+              </p>
+              <p style="
+                    font-size: 9px;
+                    font-weight: light;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Tour de poitrine 82 cm
+              </p>
+              <p style="
+                    font-size: 9px;
+                    font-weight: light;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Tour de buste 65 cm
+              </p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-2-usp-4.jpg" />
+
+            <div class="usp-copy" style="top: -20px; line-height: 20px">
+              <p>Des bonnets qui s’ajustent parfaitement.</p>
+            </div>
+            <div class="usp-copy" style="top: 30px">
+              <p style="font-size: 12px">
+                Exemple : vous faites un bonnet A, B ou C en taille 80/85
+              </p>
+            </div>
+            <div class="usp-copy" style="top: 30%">
+              <p style="
+                    font-size: 9px;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Taille habituelle
+              </p>
+              <p style="
+                    font-size: 22px;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                80B
+              </p>
+              <p style="
+                    font-size: 9px;
+                    font-weight: light;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Tour de poitrine 78 cm
+              </p>
+              <p style="
+                    font-size: 9px;
+                    font-weight: light;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Tour de buste 65 cm
+              </p>
+            </div>
+            <div class="usp-copy" style="top: 65%">
+              <p style="
+                    font-size: 9px;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Taille habituelle
+              </p>
+              <p style="
+                    font-size: 22px;
+                    font-weight: bold;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                85C
+              </p>
+              <p style="
+                    font-size: 9px;
+                    font-weight: light;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Tour de poitrine 82 cm
+              </p>
+              <p style="
+                    font-size: 9px;
+                    font-weight: light;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                  ">
+                Tour de buste 65 cm
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-lineup-cta">
+          <a href="https://www.uniqlo.com/fr/fr/femme/sous-vetements-et-vetements-dinterieur/sous-vetements"
+            target="blank">
+            <h3>Tous nos modèles Maintien 3D</h3>
+          </a>
+        </div>
+      </div>
+
+      <!-- RELAX WIRELESS BRA -->
+      <div class="w-lineup">
+        <h2 class="padding-left-m">Brassière Relax</h2>
+        <div class="w-lineup-assets">
+          <div class="w-lineup-asset">
+            <img
+              data-src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-main-3.jpg"
+              height="400" width="550" loading="lazy" />
+          </div>
+          <div class="w-lineup-copy">
+            <h4 class="text-align-center">
+              Sans armatures : liberté et confort.
+            </h4>
+            <p>
+              Un design sans coutures pour une liberté de mouvement
+              incomparable. Des bonnets intégrés pour offrir un solide
+              maintien.
+            </p>
+            <p>
+              Coton, AIRism ou maille mesh, les 3 matières de cette brassière
+              offrent douceur et confort tout au long de la journée.
+            </p>
+            <div class="w-lineup-reviews">
+              <div>
+                <div class="w-review">
+                  « Si confortable qu’on peut dormir avec ! »
+                </div>
+                <div class="author">(Femme, 40 ans)</div>
+              </div>
+              <div>
+                <div class="w-review">
+                  « Un maintien tout en douceur ! J’apprécie vraiment le
+                  confort de cette brassière. »
+                </div>
+                <div class="author">(Femme, 40 ans)</div>
+              </div>
+              <div>
+                <div class="w-review">
+                  « J’adore la porter quand je reste à la maison. Elle est
+                  super confortable et douce contre la peau. »
+                </div>
+                <div class="author">(Femme, 40 ans)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-lineup-usp">
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-3-usp-1.jpg"
+              loading="lazy" />
+            <div class="usp-new">Nouveau !</div>
+            <div class="usp-copy bottom-center">
+              <p>avec maille mesh</p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-3-usp-2.jpg" />
+
+            <div class="usp-copy top-left">
+              <p>Effet seconde peau</p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-3-usp-3.jpg" />
+
+            <div class="usp-copy bottom-center">
+              <p>Bonnets intégrés pour apporter maintien et ajustement</p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-3-usp-4.jpg" />
+
+            <div class="usp-copy top-left">
+              <p>Design sans coutures</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-lineup-cta">
+          <a href="" target="blank">
+            <h3>Tous nos modèles Relax</h3>
+          </a>
+        </div>
+      </div>
+
+      <!-- SOFT WIRELESS BRA -->
+      <!-- <div class="w-lineup">
+          <h2 class="padding-left-m">
+            Soutien-gorge Beauty Soft Sans Armatures
+          </h2>
+          <div class="w-lineup-assets">
+            <div class="w-lineup-asset">
+              <img
+                data-src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-main-4.jpg"
+                height="400"
+                width="550"
+                loading="lazy"
+              />
+            </div>
+            <div class="w-lineup-copy">
+              <h4 class="text-align-center">
+                Un design sans armatures, un maintien tout en douceur.
+              </h4>
+              <p>Un design sans armatures, un maintien tout en douceur.</p>
+              <p>
+                Pas d’agrafes, pas de bretelles réglables : un maintien doux et
+                délicat.
+              </p>
+              <p>
+                Conçu pour réduire toute compression, ce modèle est l’atout
+                douceur de notre collection.
+              </p>
+              <p>
+                Confortable, il offre un effet seconde peau grâce à son design
+                pensé pour s’adapter naturellement à votre morphologie.
+              </p>
+              <div class="w-lineup-reviews">
+                <div>
+                  <div class="w-review">
+                    « J’adore son ajustement, ses bonnets doux et sa délicatesse
+                    contre ma peau. »
+                  </div>
+                  <div class="author">(Femme, 40 ans)</div>
+                </div>
+                <div>
+                  <div class="w-review">
+                    « Aucune marque sur les épaules grâce à ses bretelles larges
+                    qui offrent un super maintien. »
+                  </div>
+                  <div class="author">(Femme, 40 ans)</div>
+                </div>
+                <div>
+                  <div class="w-review">
+                    « Il s’ajuste naturellement à ma morphologie et l’absence
+                    d’agrafe apporte un tel confort ! »
+                  </div>
+                  <div class="author">(Femme, 40 ans)</div>
+                </div>
+                <div>
+                  <div class="w-review">
+                    « Sa matière extensible permet de l’enfiler et l’enlever
+                    très facilement. »
+                  </div>
+                  <div class="author">(Femme, 40 ans)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-lineup-usp">
+            <div class="usp">
+              <img
+                src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-4-usp-1.jpg"
+                loading="lazy"
+              />
+
+              <div class="usp-copy bottom-center">
+                <p>Bonnets doux et enveloppants</p>
+              </div>
+            </div>
+            <div class="usp">
+              <img
+                src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-4-usp-2.jpg"
+              />
+
+              <div class="usp-copy top-left">
+                <p>Larges bretelles qui ne glissent pas</p>
+              </div>
+            </div>
+            <div class="usp">
+              <img
+                src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-4-usp-3.jpg"
+              />
+
+              <div class="usp-copy bottom-center">
+                <p>Aucune agrafe, aucun élément de réglage</p>
+              </div>
+            </div>
+            <div class="usp">
+              <img
+                src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-4-usp-4.jpg"
+              />
+
+              <div class="usp-copy top-left">
+                <p>Ultra-stretch, ultra-confortable</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-lineup-cta">
+            <a
+              href="https://www.uniqlo.com/fr/fr/femme/sous-vetements-et-vetements-dinterieur/sous-vetements"
+              target="blank"
+            >
+              <h3>Tous nos modèles Shape Lift</h3>
+            </a>
+          </div>
+        </div> -->
+    </section>
+
+    <section id="seamless-shorts">
+      <!-- ULTRA SEEMLESS SHORTS -->
+      <div class="w-lineup">
+        <h2 class="padding-left-m">
+          Culottes et Shortys AIRism Sans Coutures
+        </h2>
+        <div class="w-lineup-assets">
+          <div class="w-lineup-asset">
+            <img
+              data-src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-main-5.jpg"
+              height="400" width="550" loading="lazy" />
+          </div>
+          <div class="w-lineup-copy">
+            <h4 class="text-align-center">
+              Un design invisible sans coutures, un effet seconde peau.
+            </h4>
+            <p>
+              Grâce au tissu AIRism qui les composent, ces culottes et shortys
+              sont respirants, légers et doux contre la peau.
+            </p>
+            <div class="w-lineup-reviews">
+              <div>
+                <div class="w-review">
+                  « Ce shorty ne marque pas, même porté sous un jean. »
+                </div>
+                <div class="author">(Femme, 40 ans)</div>
+              </div>
+              <div>
+                <div class="w-review">
+                  « Ce tissu est incroyablement doux. Quel bonheur de le
+                  porter au quotidien. »
+                </div>
+                <div class="author">(Femme, 40 ans)</div>
+              </div>
+              <div>
+                <div class="w-review">
+                  « S’ajuste parfaitement à mes courbes. Une vraie sensation
+                  de fraîcheur même lorsqu’il fait chaud. »
+                </div>
+                <div class="author">(Femme, 40 ans)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-lineup-usp">
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-5-usp-1.jpg"
+              loading="lazy" />
+
+            <div class="usp-copy top-left">
+              <p>Sans coutures pour un rendu invisible</p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-5-usp-2.jpg" />
+
+            <div class="usp-copy bottom-center">
+              <p>Une matière qui apporte douceur et fraîcheur.</p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-5-usp-3.jpg" />
+
+            <div class="usp-copy top-left">
+              <p>AIRism : propriétés absorbantes et anti-humidité</p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-5-usp-4.jpg" />
+
+            <div class="usp-copy bottom-center">
+              <p>Une doublure en coton pour encore plus de confort.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-lineup-cta">
+          <a href="https://www.uniqlo.com/fr/fr/femme/sous-vetements-et-vetements-dinterieur/sous-vetements"
+            target="blank">
+            <h3>Nos modèles AIRism Sans Coutures</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="body-shaper">
+      <!-- BODY SHAPER -->
+      <div class="w-lineup">
+        <h2 class="padding-left-m">MODÈLES sculptants</h2>
+        <div class="w-lineup-assets">
+          <div class="w-lineup-asset">
+            <img
+              data-src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-main-6.jpg"
+              height="400" width="550" loading="lazy" />
+          </div>
+          <div class="w-lineup-copy">
+            <h4 class="text-align-center">
+              Pour une silhouette harmonieuse tout en confort.
+            </h4>
+            <p>
+              Des hauts qui galbent et rehaussent vos courbes naturelles. Des
+              shorts qui dessinent votre taille sans vous comprimer. Une
+              silhouette redessinée sans sacrifier votre confort.
+            </p>
+            <div class="w-lineup-reviews">
+              <div>
+                <div class="w-review">
+                  « Très fin et soyeux, il est si confortable que je le porte
+                  comme un simple sous-vêtement. »
+                </div>
+                <div class="author">(Femme, 40 ans)</div>
+              </div>
+              <div>
+                <div class="w-review">
+                  « Il dessine ma silhouette sans aplatir mes hanches.
+                  Vraiment top ! »
+                </div>
+                <div class="author">(Femme, 40 ans)</div>
+              </div>
+              <div>
+                <div class="w-review">
+                  « Incroyable ! Le tissu est très fin au niveau de la taille
+                  et ne serre pas trop. Super confort. »
+                </div>
+                <div class="author">(Femme, 40 ans)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-lineup-usp">
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-6-usp-1.jpg"
+              loading="lazy" />
+
+            <div class="usp-copy top-left">
+              <p>Reste bien à plat dans le dos</p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-6-usp-2.jpg" />
+
+            <div class="usp-copy bottom-center">
+              <p>Met en valeur vos courbes naturelles</p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-6-usp-3.jpg" />
+
+            <div class="usp-copy top-left">
+              <p>Une technologie sculptante tridimensionnelle</p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-6-usp-4.jpg" />
+
+            <div class="usp-copy bottom-center">
+              <p>Très confortable au niveau de la taille</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-lineup-cta">
+          <a href="https://www.uniqlo.com/fr/fr/femme/sous-vetements-et-vetements-dinterieur/sous-vetements"
+            target="blank">
+            <h3>Tous nos modèles sculptants</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="v-neck">
+      <!-- V neck -->
+      <div class="w-lineup">
+        <h2 class="padding-left-m">
+          Caracos Sans Coutures à Bonnets Intégrés Décolleté en V
+        </h2>
+        <div class="w-lineup-assets">
+          <div class="w-lineup-asset">
+            <img
+              data-src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-main-7.jpg"
+              height="400" width="550" loading="lazy" />
+          </div>
+          <div class="w-lineup-copy">
+            <h4 class="text-align-center">
+              Un design conçu pour vous sublimer tout en étant confortable.
+            </h4>
+            <p>
+              Un caraco léger et discret qui met en valeur votre silhouette
+              grâce à son décolleté en V et qui vous apporte respirabilité et
+              confort grâce au tissu AIRism.
+            </p>
+            <div class="w-lineup-reviews">
+              <div>
+                <div class="w-review">
+                  « Les bonnets intégrés créent de jolies courbes mais
+                  surtout, il est très doux contre la peau. »
+                </div>
+                <div class="author">(Femme, 40 ans)</div>
+              </div>
+              <div>
+                <div class="w-review">
+                  « Grâce à son décolleté en V plongeant, on peut le porter
+                  discrètement sous de nombreux hauts. »
+                </div>
+                <div class="author">(Femme, 40 ans)</div>
+              </div>
+              <div>
+                <div class="w-review">« Il m’offre un solide maintien. »</div>
+                <div class="author">(Femme, 40 ans)</div>
+              </div>
+              <div>
+                <div class="w-review">
+                  « Il rehausse la poitrine tout en procurant un super
+                  maintien. Aussi bien qu’un soutien-gorge. »
+                </div>
+                <div class="author">(Femme, 40 ans)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-lineup-usp">
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-7-usp-1.jpg"
+              loading="lazy" />
+
+            <div class="usp-copy top-left">
+              <p>Matière douce et rendu invisible</p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-7-usp-2.jpg" />
+
+            <div class="usp-copy bottom-center">
+              <p>Décolleté en V et galbe naturel</p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-7-usp-3.jpg" />
+
+            <div class="usp-copy top-left">
+              <p>Bretelles réglables</p>
+            </div>
+          </div>
+          <div class="usp">
+            <img
+              src="https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/wireless-bras/lineup-7-usp-4.jpg" />
+
+            <div class="usp-copy bottom-center">
+              <p>Bonnets intégrés pour un solide maintien</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-lineup-cta">
+          <a href="https://www.uniqlo.com/fr/fr/femme/sous-vetements-et-vetements-dinterieur/sous-vetements"
+            target="blank">
+            <h3>Tous nos Hauts Sans Coutures à Bonnets Intégrés</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      // var pageLazyLoad = new LazyLoad({
+      //   elements_selector: "[loading=lazy]",
+      //   use_native: true, // ← enables hybrid lazy loading
+      // });
+
+      // $(".w-lineup-reviews").slick({
+      //   arrows: true,
+      //   dots: true,
+      // });
+
+      // if (window.innerWidth < 800) {
+      //   $(".w-lineup-usp").slick({
+      //     slidesToShow: 2,
+      //     draggable: true,
+      //     dots: true,
+      //     arrows: true,
+      //   });
+      // }
+
+      // window.addEventListener("resize", () => {
+      //   if (window.innerWidth < 800) {
+      //     $(".w-lineup-usp").slick({
+      //       slidesToShow: 2,
+      //       draggable: true,
+      //       dots: true,
+      //     });
+      //   }
+      // });
+      var btn = $("#button");
+
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+          btn.addClass("show");
+        } else {
+          btn.removeClass("show");
+        }
+      });
+
+      btn.on("click", function (e) {
+        e.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "300");
+      });
+
+      document.getElementsByTagName("html")[0].style.scrollBehavior =
+        "smooth";
+    </script>
+  </div>
+</body>
+
+</html>

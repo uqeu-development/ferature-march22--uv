@@ -1,0 +1,84 @@
+
+Link1
+UK: https://www.uniqlo.com/uk/en/women/innerwear-and-loungewear/bras-and-underwear/active-wireless-bras 
+
+DE: https://www.uniqlo.com/de/de/damen/unterbekleidung-loungewear/bhs-und-unterwaesche/buegellose-bhs
+FR: https://www.uniqlo.com/fr/fr/femme/sous-vetements-et-vetements-dinterieur/sous-vetements/soutiens-gorge-sans-armature
+ES: https://www.uniqlo.com/es/es/mujer/ropa-interior-y-pijamas-/sujetadores-y-ropa-interior/sujetadores
+IT: https://www.uniqlo.com/it/it/donna/vestiti-termici-vestiti-per-la-casa/reggiseni-intimo/reggiseni-senza-ferretto
+
+
+Link2
+UK: https://www.uniqlo.com/uk/en/women/innerwear-and-loungewear/bras-and-underwear/seamless-briefs
+substitue:  https://www.uniqlo.com/uk/en/women/innerwear-and-loungewear/bras-and-underwear/
+briefs-bikini-briefs-shorts
+
+
+DE: https://www.uniqlo.com/de/de/damen/mehr-entdecken/mengenrabatte/periodenunterwaesche
+FR: https://www.uniqlo.com/fr/fr/femme/collections-speciales/offre-speciale-lots/culottes-menstruelles
+ES: https://www.uniqlo.com/es/es/mujer/articulos-destacados/ofertas-multicompra/bragas-menstruales
+IT: https://www.uniqlo.com/it/it/donna/articoli-in-evidenza/multibuy/slip-assorbenti
+
+ 
+Link3
+https://www.uniqlo.com/uk/en/women/innerwear-and-loungewear/bras-and-underwear/seamless-briefs
+
+DE: https://www.uniqlo.com/de/de/damen/mehr-entdecken/mengenrabatte/periodenunterwaesche
+FR: https://www.uniqlo.com/fr/fr/femme/collections-speciales/offre-speciale-lots/culottes-menstruelles
+ES: https://www.uniqlo.com/es/es/mujer/articulos-destacados/ofertas-multicompra/bragas-menstruales
+IT: https://www.uniqlo.com/it/it/donna/articoli-in-evidenza/multibuy/slip-assorbenti
+
+
+ 
+Link4
+UK: https://www.uniqlo.com/uk/en/women/innerwear-and-loungewear/bras-and-underwear/bratops 
+
+FR: https://www.uniqlo.com/fr/fr/femme/sous-vetements-et-vetements-dinterieur/sous-vetements/tops-a-soutien-gorge-integre
+DE: https://www.uniqlo.com/de/de/damen/unterbekleidung-loungewear/bhs-und-unterwaesche/bh-tops
+ES: https://www.uniqlo.com/es/es/mujer/ropa-interior-y-pijamas-/sujetadores-y-ropa-interior/camisetas-con-sujetador
+IT: https://www.uniqlo.com/it/it/donna/vestiti-termici-vestiti-per-la-casa/reggiseni-intimo/top-con-reggiseno-incorporato
+
+
+Link5
+UK: https://www.uniqlo.com/uk/en/women/innerwear-and-loungewear/bras-and-underwear/body-shapers
+
+FR: https://www.uniqlo.com/fr/fr/femme/sous-vetements-et-vetements-dinterieur/sous-vetements/panties-sculptants
+DE: https://www.uniqlo.com/de/de/damen/unterbekleidung-loungewear/bhs-und-unterwaesche/figurformende-unterwaesche
+ES: https://www.uniqlo.com/es/es/mujer/ropa-interior-y-pijamas-/sujetadores-y-ropa-interior/faja-moldeadora
+IT: https://www.uniqlo.com/it/it/donna/vestiti-termici-vestiti-per-la-casa/reggiseni-intimo/body-shaper
+
+Link6
+UK: https://www.uniqlo.com/uk/en/women/innerwear-and-loungewear/bras-and-underwear/
+briefs-bikini-briefs-shorts
+
+DE: https://www.uniqlo.com/de/de/damen/mehr-entdecken/mengenrabatte/periodenunterwaesche
+FR: https://www.uniqlo.com/fr/fr/femme/collections-speciales/offre-speciale-lots/culottes-menstruelles
+ES: https://www.uniqlo.com/es/es/mujer/articulos-destacados/ofertas-multicompra/bragas-menstruales
+IT: https://www.uniqlo.com/it/it/donna/articoli-in-evidenza/multibuy/slip-assorbenti
+
+Link7
+UK: https://www.uniqlo.com/uk/en/women/innerwear-and-loungewear/bras-and-underwear/sanitary-shorts 
+
+DE: https://www.uniqlo.com/de/de/damen/mehr-entdecken/mengenrabatte/periodenunterwaesche
+FR: https://www.uniqlo.com/fr/fr/femme/collections-speciales/offre-speciale-lots/culottes-menstruelles
+ES: https://www.uniqlo.com/es/es/mujer/articulos-destacados/ofertas-multicompra/bragas-menstruales
+IT: https://www.uniqlo.com/it/it/donna/articoli-in-evidenza/multibuy/slip-assorbenti
+
+
+Link8
+UK: https://www.uniqlo.com/uk/en/women/innerwear-and-loungewear/bras-and-underwear/maternity-underwear 
+
+DE: https://www.uniqlo.com/de/de/damen/unterbekleidung-loungewear/bhs-und-unterwaesche/umstandsunterwaesche
+FR: https://www.uniqlo.com/fr/fr/femme/bas/maternite/sous-vetements-maternite
+ES: https://www.uniqlo.com/es/es/mujer/pantalones-y-faldas/premama/ropa-interior-premama 
+IT: https://www.uniqlo.com/it/it/donna/pantaloni-gonne/premaman/intimo-premaman
+
+
+
+Link9:
+UK: https://www.uniqlo.com/uk/en/kids/girls-and-boys/bras-underwear 
+
+DE: https://www.uniqlo.com/de/de/kinder/maedchen-und-jungen/unterwaesche-bhs
+FR: https://www.uniqlo.com/fr/fr/enfant/filles-et-garcons/sous-vetements
+ES: https://www.uniqlo.com/es/es/ninos/ninas-y-ninos/ropa-interior-y-sujetadores
+IT: https://www.uniqlo.com/it/it/bambino/bambine-e-bambini/intimo-reggiseni
