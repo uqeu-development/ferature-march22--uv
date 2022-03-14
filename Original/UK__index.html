@@ -1,7 +1,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../assets/fonts/uniqlo-webfont.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/ss22__airism-style.css" />
+    <link rel="stylesheet" href="../css/ss22__uv.css" />
 
 
 
@@ -4820,34 +4820,36 @@
                 switch (hash) {
                     
     
+               
                     case "#hnav-kids":
-                    $('.content-container').children().hide();
+                    $('.content-container').children().addClass('potato');
                     $('.nav').removeClass('active');
                     $('[data-type=hnav-kids]').addClass('active');
-                    $('.hnav-kids').show();
+                    $('.hnav-kids').removeClass( 'potato' );
                    
                     break;
                 case "#hnav-newborns":
                     $('.nav').removeClass('active');
                     $('[data-type=hnav-newborns]').addClass('active');
-                    $('.content-container').children().hide();
+                    $('.content-container').children().addClass('potato');
                    
-                    $('.hnav-newborns').show();
+                    $('.hnav-newborns').removeClass( 'potato' );
                    
                   
                     break;
                 case "#hnav-toddlers":
                     $('.nav').removeClass('active');
                     $('[data-type=hnav-toddlers]').addClass('active');
-                    $('.content-container').children().hide();
-                    $('.hnav-toddlers').show();
+                    $('.content-container').children().addClass('potato');
+                    $('.hnav-toddlers').removeClass( 'potato' );
                      
                     break;
                 default:
                     $('.nav').removeClass('active');
                     $('[data-type=hnav-kids]').addClass('active');
-                    $('.content-container').children().hide();
-                    $('.hnav-kids').show();
+                    $('.content-container').children().addClass('potato');
+                    $('.hnav-kids').removeClass( 'potato' );
+
                     
                     break;
                 }
